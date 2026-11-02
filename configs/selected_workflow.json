@@ -1,0 +1,81 @@
+{
+  "workflow": "text prompt Grounding DINO + frozen deliverable RCNN candidate boxes -> tuned SAM 2 masks",
+  "text_prompt": "person.",
+  "rcnn_checkpoint": "weights/maskrcnn_person_latest.pth",
+  "sam2_checkpoint": "weights/sam2_mural_best.pt",
+  "rcnn_weights_modified": false,
+  "selected_parameters": {
+    "dino_score": 0.5,
+    "rcnn_score": 0.5,
+    "nms_iou": 0.5,
+    "prompt_mode": "box_point",
+    "box_expansion": 0.02,
+    "mask_threshold": 0.0
+  },
+  "calibration_best": {
+    "params": {
+      "dino_score": 0.5,
+      "rcnn_score": 0.5,
+      "nms_iou": 0.5,
+      "prompt_mode": "box_point",
+      "box_expansion": 0.02,
+      "mask_threshold": 0.0
+    },
+    "images": 120,
+    "gt_instances": 395,
+    "pred_instances": 517,
+    "matched_instances": 393,
+    "precision_at_iou_0_5": 0.7601547388781431,
+    "recall_at_iou_0_5": 0.9949367088607595,
+    "f1_at_iou_0_5": 0.8618421052631579,
+    "mean_matched_iou": 0.8244757694228043,
+    "median_matched_iou": 0.8358381502890173,
+    "image_any_success": 1.0,
+    "image_all_gt_matched": 0.9833333333333333,
+    "image_exact_count": 0.4083333333333333
+  },
+  "base_sam2_test": {
+    "params": {
+      "dino_score": 0.5,
+      "rcnn_score": 0.5,
+      "nms_iou": 0.5,
+      "prompt_mode": "box_point",
+      "box_expansion": 0.02,
+      "mask_threshold": 0.0
+    },
+    "images": 137,
+    "gt_instances": 422,
+    "pred_instances": 495,
+    "matched_instances": 331,
+    "precision_at_iou_0_5": 0.6686868686868687,
+    "recall_at_iou_0_5": 0.7843601895734598,
+    "f1_at_iou_0_5": 0.721919302071974,
+    "mean_matched_iou": 0.720392394267441,
+    "median_matched_iou": 0.7337180544105524,
+    "image_any_success": 0.8759124087591241,
+    "image_all_gt_matched": 0.6277372262773723,
+    "image_exact_count": 0.2846715328467153
+  },
+  "tuned_sam2_test": {
+    "params": {
+      "dino_score": 0.5,
+      "rcnn_score": 0.5,
+      "nms_iou": 0.5,
+      "prompt_mode": "box_point",
+      "box_expansion": 0.02,
+      "mask_threshold": 0.0
+    },
+    "images": 137,
+    "gt_instances": 422,
+    "pred_instances": 495,
+    "matched_instances": 364,
+    "precision_at_iou_0_5": 0.7353535353535353,
+    "recall_at_iou_0_5": 0.8625592417061612,
+    "f1_at_iou_0_5": 0.7938931297709922,
+    "mean_matched_iou": 0.8011093645019002,
+    "median_matched_iou": 0.814857942824661,
+    "image_any_success": 0.9197080291970803,
+    "image_all_gt_matched": 0.7372262773722628,
+    "image_exact_count": 0.3284671532846715
+  }
+}

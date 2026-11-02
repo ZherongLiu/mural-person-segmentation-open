@@ -1,0 +1,3921 @@
+{
+  "label": "tuned_sam2",
+  "checkpoint": "runs/15temple_sam2_tuned/sam2_mural_best.pt",
+  "text_prompt": "person.",
+  "inference_images": 138,
+  "quantitative_images": 137,
+  "seconds": 186.49,
+  "metrics": {
+    "params": {
+      "dino_score": 0.5,
+      "rcnn_score": 0.5,
+      "nms_iou": 0.5,
+      "prompt_mode": "box_point",
+      "box_expansion": 0.02,
+      "mask_threshold": 0.0
+    },
+    "images": 137,
+    "gt_instances": 422,
+    "pred_instances": 495,
+    "matched_instances": 364,
+    "precision_at_iou_0_5": 0.7353535353535353,
+    "recall_at_iou_0_5": 0.8625592417061612,
+    "f1_at_iou_0_5": 0.7938931297709922,
+    "mean_matched_iou": 0.8011093645019002,
+    "median_matched_iou": 0.814857942824661,
+    "image_any_success": 0.9197080291970803,
+    "image_all_gt_matched": 0.7372262773722628,
+    "image_exact_count": 0.3284671532846715
+  },
+  "per_image": [
+    {
+      "image_id": 13,
+      "file_name": "9025f2c0-140421-0456-JZ01-BH01051.jpg",
+      "gt": 5,
+      "pred": 7,
+      "matched": 4,
+      "matched_ious": [
+        0.8343415139993087,
+        0.7881313131313131,
+        0.7830004505180959,
+        0.5988227720040468
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999703168869019,
+        0.9999338388442993,
+        0.9989487528800964,
+        0.9950881600379944,
+        0.8079243898391724,
+        0.5698526501655579,
+        0.554229199886322
+      ],
+      "sam_quality_scores": [
+        0.8340507745742798,
+        0.8504003882408142,
+        0.8774547576904297,
+        0.8395454287528992,
+        0.7565473318099976,
+        0.75931316614151,
+        0.9142320156097412
+      ]
+    },
+    {
+      "image_id": 23,
+      "file_name": "04ac97b6-140421-0456-JZ01-BH01062.jpg",
+      "gt": 3,
+      "pred": 4,
+      "matched": 2,
+      "matched_ious": [
+        0.8539351072190412,
+        0.8074191838897721
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999445676803589,
+        0.9999321699142456,
+        0.5520567893981934,
+        0.5367985367774963
+      ],
+      "sam_quality_scores": [
+        0.8526651263237,
+        0.8742015957832336,
+        0.7811312675476074,
+        0.8773598670959473
+      ]
+    },
+    {
+      "image_id": 51,
+      "file_name": "f5a5693f-140421-0456-JZ01-BH02073.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.8286963434022258,
+        0.7912158681092221
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.999822199344635,
+        0.9997145533561707,
+        0.5789243578910828
+      ],
+      "sam_quality_scores": [
+        0.8884646892547607,
+        0.8591413497924805,
+        0.8807057738304138
+      ]
+    },
+    {
+      "image_id": 54,
+      "file_name": "3636b5ae-140421-0456-JZ01-BH02076.jpg",
+      "gt": 3,
+      "pred": 3,
+      "matched": 3,
+      "matched_ious": [
+        0.7831417280402371,
+        0.743949715834243,
+        0.7216465169833045
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998654127120972,
+        0.9997908473014832,
+        0.9997863173484802
+      ],
+      "sam_quality_scores": [
+        0.8573067784309387,
+        0.8482275009155273,
+        0.844608724117279
+      ]
+    },
+    {
+      "image_id": 61,
+      "file_name": "a9b378ae-140421-0456-JZ01-BH02083.jpg",
+      "gt": 6,
+      "pred": 8,
+      "matched": 5,
+      "matched_ious": [
+        0.8936441816715937,
+        0.8624364853141653,
+        0.8380559204353537,
+        0.7583549519304136,
+        0.7373246024321796
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999353885650635,
+        0.9999256134033203,
+        0.9998461008071899,
+        0.9998223185539246,
+        0.99883633852005,
+        0.6067315340042114,
+        0.564578652381897,
+        0.5214711427688599
+      ],
+      "sam_quality_scores": [
+        0.8719056844711304,
+        0.8647727370262146,
+        0.8364817500114441,
+        0.7553848624229431,
+        0.8343430757522583,
+        0.9228710532188416,
+        0.8829493522644043,
+        0.8070902824401855
+      ]
+    },
+    {
+      "image_id": 63,
+      "file_name": "d1cead8d-140421-0456-JZ01-BH02085.jpg",
+      "gt": null,
+      "pred": 1,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.6926419734954834
+      ],
+      "sam_quality_scores": [
+        0.8848136067390442
+      ]
+    },
+    {
+      "image_id": 66,
+      "file_name": "cfadce9e-140421-0456-JZ01-BH02094.jpg",
+      "gt": 1,
+      "pred": 3,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9961221814155579,
+        0.6261242032051086,
+        0.5192775726318359
+      ],
+      "sam_quality_scores": [
+        0.8612143993377686,
+        0.9134383797645569,
+        0.8451910018920898
+      ]
+    },
+    {
+      "image_id": 89,
+      "file_name": "376482d8-140421-0456-JZ01-BH02122.jpg",
+      "gt": 5,
+      "pred": 7,
+      "matched": 5,
+      "matched_ious": [
+        0.8589743589743589,
+        0.8336437718277067,
+        0.8287596422964025,
+        0.8238120662039509,
+        0.768940790821553
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999618530273438,
+        0.9999380111694336,
+        0.9998565912246704,
+        0.9997925162315369,
+        0.9997350573539734,
+        0.6513549089431763,
+        0.5181804895401001
+      ],
+      "sam_quality_scores": [
+        0.809855580329895,
+        0.8424147963523865,
+        0.8823504447937012,
+        0.7865996956825256,
+        0.8470765948295593,
+        0.8680652976036072,
+        0.8688634634017944
+      ]
+    },
+    {
+      "image_id": 94,
+      "file_name": "d8c5ba01-140421-0456-JZ01-BH02127.jpg",
+      "gt": 4,
+      "pred": 8,
+      "matched": 4,
+      "matched_ious": [
+        0.8559476173153874,
+        0.8159951894167168,
+        0.806631953959989,
+        0.7435014193219149
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999707937240601,
+        0.9999148845672607,
+        0.9998904466629028,
+        0.9968718886375427,
+        0.7233095169067383,
+        0.6610482335090637,
+        0.6575384140014648,
+        0.6352224349975586
+      ],
+      "sam_quality_scores": [
+        0.8267468810081482,
+        0.892220139503479,
+        0.8636788725852966,
+        0.7858019471168518,
+        0.9404143691062927,
+        0.8578398823738098,
+        0.9111865758895874,
+        0.9149964451789856
+      ]
+    },
+    {
+      "image_id": 97,
+      "file_name": "4683cd80-140421-0456-JZ01-BH02130.jpg",
+      "gt": 3,
+      "pred": 5,
+      "matched": 3,
+      "matched_ious": [
+        0.8499536178107606,
+        0.6784327886611898,
+        0.6394357990823238
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999613761901855,
+        0.9994511008262634,
+        0.8588166236877441,
+        0.6926419734954834,
+        0.6766199469566345
+      ],
+      "sam_quality_scores": [
+        0.8264570236206055,
+        0.8071485161781311,
+        0.7651524543762207,
+        0.8388510942459106,
+        0.8410801291465759
+      ]
+    },
+    {
+      "image_id": 115,
+      "file_name": "9f0e4c3b-140421-0456-JZ01-BH02152.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8235000830978894
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999618530273438,
+        0.7325918078422546
+      ],
+      "sam_quality_scores": [
+        0.8405939340591431,
+        0.9334969520568848
+      ]
+    },
+    {
+      "image_id": 131,
+      "file_name": "f17aaf95-140421-0676-JZ01-BH01030.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8929847318504657
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999351501464844,
+        0.5491570830345154
+      ],
+      "sam_quality_scores": [
+        0.8749837875366211,
+        0.8784914612770081
+      ]
+    },
+    {
+      "image_id": 136,
+      "file_name": "5bed6d96-140421-0676-JZ01-BH01035.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.9543824415435375
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999829530715942,
+        0.8418256044387817
+      ],
+      "sam_quality_scores": [
+        0.8684693574905396,
+        0.9393516182899475
+      ]
+    },
+    {
+      "image_id": 143,
+      "file_name": "d8dbf5eb-140421-0676-JZ01-BH03061.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.7117268431100493
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9979156851768494
+      ],
+      "sam_quality_scores": [
+        0.8691556453704834
+      ]
+    },
+    {
+      "image_id": 147,
+      "file_name": "8f6fa624-140421-0676-JZ01-BH03069.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.9412488387280739
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.999974250793457
+      ],
+      "sam_quality_scores": [
+        0.8916604518890381
+      ]
+    },
+    {
+      "image_id": 162,
+      "file_name": "d5cc1e67-140425-0259-JZ03-BH23010.jpg",
+      "gt": 3,
+      "pred": 3,
+      "matched": 3,
+      "matched_ious": [
+        0.9023628795298727,
+        0.8080900045522533,
+        0.5693381736944988
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9997376799583435,
+        0.9994874000549316,
+        0.9991382360458374
+      ],
+      "sam_quality_scores": [
+        0.8271462321281433,
+        0.828498899936676,
+        0.8708887696266174
+      ]
+    },
+    {
+      "image_id": 164,
+      "file_name": "98768e3d-140425-0259-JZ03-BH23013.jpg",
+      "gt": 2,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.7389826159471422
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9995905756950378
+      ],
+      "sam_quality_scores": [
+        0.8073070645332336
+      ]
+    },
+    {
+      "image_id": 180,
+      "file_name": "1067572f-140425-0259-JZ03-BH23034.jpg",
+      "gt": 1,
+      "pred": 0,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [],
+      "candidate_scores": [],
+      "sam_quality_scores": []
+    },
+    {
+      "image_id": 188,
+      "file_name": "2e49aaf9-140425-0259-JZ03-BH24018.jpg",
+      "gt": 3,
+      "pred": 5,
+      "matched": 3,
+      "matched_ious": [
+        0.7587555451786131,
+        0.6217033727412914,
+        0.5095738689694012
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999117851257324,
+        0.9998800754547119,
+        0.9998800754547119,
+        0.5987815260887146,
+        0.596433162689209
+      ],
+      "sam_quality_scores": [
+        0.7332198619842529,
+        0.8302984833717346,
+        0.8683450222015381,
+        0.8811890482902527,
+        0.9013459086418152
+      ]
+    },
+    {
+      "image_id": 191,
+      "file_name": "983e4028-140425-0259-JZ03-BH24021.jpg",
+      "gt": 3,
+      "pred": 5,
+      "matched": 3,
+      "matched_ious": [
+        0.8681477084834867,
+        0.8523659981443151,
+        0.8172147787251319
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999301433563232,
+        0.9999079704284668,
+        0.9995705485343933,
+        0.6592954993247986,
+        0.5808276534080505
+      ],
+      "sam_quality_scores": [
+        0.839733898639679,
+        0.8512738347053528,
+        0.83022141456604,
+        0.8872615098953247,
+        0.8474907279014587
+      ]
+    },
+    {
+      "image_id": 193,
+      "file_name": "aaaf6662-140425-0259-JZ03-BH24023.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.8479905437352245,
+        0.8191884554936419
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998871088027954,
+        0.9998544454574585,
+        0.6279512047767639
+      ],
+      "sam_quality_scores": [
+        0.8467993140220642,
+        0.7966414093971252,
+        0.8731345534324646
+      ]
+    },
+    {
+      "image_id": 200,
+      "file_name": "2953be0a-140425-0259-JZ03-BH24030.jpg",
+      "gt": 4,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.8274367221367641,
+        0.7719843046628632
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.999879002571106,
+        0.9998644590377808,
+        0.8931524753570557
+      ],
+      "sam_quality_scores": [
+        0.7859451770782471,
+        0.8195440769195557,
+        0.822966992855072
+      ]
+    },
+    {
+      "image_id": 208,
+      "file_name": "453cb6e7-140425-0259-JZ03-BH24039.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8100535640708694
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998063445091248,
+        0.8990563154220581
+      ],
+      "sam_quality_scores": [
+        0.8077515959739685,
+        0.8362305164337158
+      ]
+    },
+    {
+      "image_id": 211,
+      "file_name": "52156c04-140425-0259-JZ03-BH24042.jpg",
+      "gt": 4,
+      "pred": 7,
+      "matched": 4,
+      "matched_ious": [
+        0.8464349096982984,
+        0.8423709986872665,
+        0.8126203750633553,
+        0.7447727798780959
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999345541000366,
+        0.9998807907104492,
+        0.9976493716239929,
+        0.9849454164505005,
+        0.6334102749824524,
+        0.5455278754234314,
+        0.5089101791381836
+      ],
+      "sam_quality_scores": [
+        0.8578723669052124,
+        0.8656805157661438,
+        0.830298900604248,
+        0.8314607739448547,
+        0.8519737720489502,
+        0.8062673807144165,
+        0.8430554866790771
+      ]
+    },
+    {
+      "image_id": 227,
+      "file_name": "26b3192f-140425-0452-JZ01-BH01016.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.5271083898243312
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9975727200508118
+      ],
+      "sam_quality_scores": [
+        0.797275722026825
+      ]
+    },
+    {
+      "image_id": 231,
+      "file_name": "2629dc5b-140425-0452-JZ01-BH01020.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.6151698906820157
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999326467514038,
+        0.8459424376487732
+      ],
+      "sam_quality_scores": [
+        0.7454984784126282,
+        0.865893542766571
+      ]
+    },
+    {
+      "image_id": 237,
+      "file_name": "b853fb51-140425-0452-JZ01-BH01026.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.7597181460961413
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9983709454536438
+      ],
+      "sam_quality_scores": [
+        0.7851311564445496
+      ]
+    },
+    {
+      "image_id": 258,
+      "file_name": "bc93699e-140425-0452-JZ01-BH03018.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.7783618375354346
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.893105149269104
+      ],
+      "sam_quality_scores": [
+        0.8702245354652405
+      ]
+    },
+    {
+      "image_id": 287,
+      "file_name": "e54b9439-140425-0452-JZ01-BH04050.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.938501863686647
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.999971866607666,
+        0.8311430811882019
+      ],
+      "sam_quality_scores": [
+        0.9132912755012512,
+        0.9485463500022888
+      ]
+    },
+    {
+      "image_id": 289,
+      "file_name": "6483f4f7-140425-0452-JZ01-BH04060.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 2,
+      "matched_ious": [
+        0.92595982118096,
+        0.8408837796366876
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999396800994873,
+        0.9970476031303406
+      ],
+      "sam_quality_scores": [
+        0.8880429267883301,
+        0.7975360155105591
+      ]
+    },
+    {
+      "image_id": 296,
+      "file_name": "c400bb50-140425-0452-JZ01-BH06002.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8814971686386446
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999415874481201,
+        0.5708098411560059
+      ],
+      "sam_quality_scores": [
+        0.8588199615478516,
+        0.8726952075958252
+      ]
+    },
+    {
+      "image_id": 317,
+      "file_name": "6ff445f4-140425-0452-JZ01-BH11012.jpg",
+      "gt": 1,
+      "pred": 0,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [],
+      "candidate_scores": [],
+      "sam_quality_scores": []
+    },
+    {
+      "image_id": 322,
+      "file_name": "fb66852e-140428-0347-JZ01-BH01011.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8672062457472335
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998602867126465,
+        0.555917501449585
+      ],
+      "sam_quality_scores": [
+        0.8200625777244568,
+        0.7997421622276306
+      ]
+    },
+    {
+      "image_id": 327,
+      "file_name": "415b0f06-140428-0347-JZ01-BH01023.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.7508972657864399
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.999767005443573,
+        0.6334102749824524
+      ],
+      "sam_quality_scores": [
+        0.8551427125930786,
+        0.7274361252784729
+      ]
+    },
+    {
+      "image_id": 330,
+      "file_name": "4c5c727d-140428-0347-JZ01-BH01027.jpg",
+      "gt": 3,
+      "pred": 3,
+      "matched": 3,
+      "matched_ious": [
+        0.8755458102565072,
+        0.766095031905196,
+        0.6287997286244652
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999231100082397,
+        0.9976964592933655,
+        0.9721255898475647
+      ],
+      "sam_quality_scores": [
+        0.7483454346656799,
+        0.8071850538253784,
+        0.7426500916481018
+      ]
+    },
+    {
+      "image_id": 331,
+      "file_name": "b580d73f-140428-0347-JZ01-BH01029.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.6442232934224849
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999109506607056
+      ],
+      "sam_quality_scores": [
+        0.7573667764663696
+      ]
+    },
+    {
+      "image_id": 338,
+      "file_name": "ad69ec6f-140428-0347-JZ01-BH03032.jpg",
+      "gt": 3,
+      "pred": 1,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9971482157707214
+      ],
+      "sam_quality_scores": [
+        0.8800330758094788
+      ]
+    },
+    {
+      "image_id": 339,
+      "file_name": "ee7b4b11-140428-0347-JZ01-BH03047.jpg",
+      "gt": 1,
+      "pred": 0,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [],
+      "candidate_scores": [],
+      "sam_quality_scores": []
+    },
+    {
+      "image_id": 355,
+      "file_name": "f54b9752-140428-0347-JZ01-BH04024.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.9065017767301129
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999405145645142
+      ],
+      "sam_quality_scores": [
+        0.8458685874938965
+      ]
+    },
+    {
+      "image_id": 400,
+      "file_name": "53d8d061-140521-0179-JZ01-BH02_ZDHQ-BG134.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8223745071710606
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999206066131592
+      ],
+      "sam_quality_scores": [
+        0.8725839853286743
+      ]
+    },
+    {
+      "image_id": 414,
+      "file_name": "049bc5cc-140521-0179-JZ01-BH02_ZDHQ-BG238.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8848473092600321
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9322025179862976,
+        0.5370413661003113
+      ],
+      "sam_quality_scores": [
+        0.9182582497596741,
+        0.9169255495071411
+      ]
+    },
+    {
+      "image_id": 436,
+      "file_name": "e06625f0-140521-0179-JZ01-BH03_ZDDQ317.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8007910682521568
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.999958872795105
+      ],
+      "sam_quality_scores": [
+        0.8230063915252686
+      ]
+    },
+    {
+      "image_id": 439,
+      "file_name": "480f640b-140521-0179-JZ01-BH03_ZDDQ326.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8804044309100767
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.999472439289093
+      ],
+      "sam_quality_scores": [
+        0.9246537089347839
+      ]
+    },
+    {
+      "image_id": 442,
+      "file_name": "4f72fede-140521-0179-JZ01-BH03_ZDDQ347.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8856405862045956
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999529123306274,
+        0.5169612765312195
+      ],
+      "sam_quality_scores": [
+        0.8494399189949036,
+        0.9596582651138306
+      ]
+    },
+    {
+      "image_id": 448,
+      "file_name": "cfe2b464-140522-1103-JZ01-BH01_ZDNQ093.jpg",
+      "gt": 1,
+      "pred": 0,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [],
+      "candidate_scores": [],
+      "sam_quality_scores": []
+    },
+    {
+      "image_id": 455,
+      "file_name": "c4120577-140522-1103-JZ01-BH01_ZDNQ128.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.748855227156073
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9997718930244446
+      ],
+      "sam_quality_scores": [
+        0.8309844136238098
+      ]
+    },
+    {
+      "image_id": 457,
+      "file_name": "2be82ec7-140522-1103-JZ01-BH02_ZDHQ071.jpg",
+      "gt": 2,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.852418285734353
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9965627789497375
+      ],
+      "sam_quality_scores": [
+        0.8563390374183655
+      ]
+    },
+    {
+      "image_id": 459,
+      "file_name": "d6625c4b-140522-1103-JZ01-BH02_ZDHQ074.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8498694878204005
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998911619186401,
+        0.5717666149139404
+      ],
+      "sam_quality_scores": [
+        0.8159195184707642,
+        0.7644540667533875
+      ]
+    },
+    {
+      "image_id": 465,
+      "file_name": "f163edc5-140522-1103-JZ01-BH03_ZDBQ058.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8891165819835499
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999723434448242
+      ],
+      "sam_quality_scores": [
+        0.856593132019043
+      ]
+    },
+    {
+      "image_id": 474,
+      "file_name": "0588a034-140522-1103-JZ01-BH03_ZDBQ086.jpg",
+      "gt": 1,
+      "pred": 0,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [],
+      "candidate_scores": [],
+      "sam_quality_scores": []
+    },
+    {
+      "image_id": 477,
+      "file_name": "9e27f7b2-140524-0085-JZ01-BH01_ZDHQ039.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.9308879320894942,
+        0.8094196791816808
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998676776885986,
+        0.9998564720153809,
+        0.5717666149139404
+      ],
+      "sam_quality_scores": [
+        0.9026964902877808,
+        0.7932854890823364,
+        0.7452856302261353
+      ]
+    },
+    {
+      "image_id": 484,
+      "file_name": "6a50c684-140524-0085-JZ01-BH01_ZDHQ058.jpg",
+      "gt": 4,
+      "pred": 9,
+      "matched": 4,
+      "matched_ious": [
+        0.9614644272504246,
+        0.9406184438566086,
+        0.928111158303501,
+        0.8908419960132452
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999366998672485,
+        0.9999345541000366,
+        0.999929666519165,
+        0.9999129772186279,
+        0.8517255187034607,
+        0.6575384140014648,
+        0.641534686088562,
+        0.6352224349975586,
+        0.6288633942604065
+      ],
+      "sam_quality_scores": [
+        0.864402711391449,
+        0.9172407388687134,
+        0.9167578816413879,
+        0.9196453094482422,
+        0.8585661053657532,
+        0.8037571907043457,
+        0.7332147359848022,
+        0.8786073923110962,
+        0.8784252405166626
+      ]
+    },
+    {
+      "image_id": 509,
+      "file_name": "8d5963ed-140524-0085-JZ01-BH01_ZDHQ119.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.7441445787691318
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999597072601318,
+        0.8221890926361084
+      ],
+      "sam_quality_scores": [
+        0.8157976865768433,
+        0.9371356964111328
+      ]
+    },
+    {
+      "image_id": 513,
+      "file_name": "bbd44d02-140524-0085-JZ01-BH01_ZDHQ139.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8592739604718773
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999607801437378,
+        0.5218366980552673
+      ],
+      "sam_quality_scores": [
+        0.889986515045166,
+        0.7932114601135254
+      ]
+    },
+    {
+      "image_id": 522,
+      "file_name": "e49221b9-140524-0085-JZ01-BH02_ZDNSQ_140524-0085-JZ01-BH03_ZDNSHQ219.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.6843261640973679
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999370574951172,
+        0.5316957235336304
+      ],
+      "sam_quality_scores": [
+        0.7140681147575378,
+        0.6557043194770813
+      ]
+    },
+    {
+      "image_id": 546,
+      "file_name": "33010ed9-140525-0087-JZ01-BH01_ZDBQ398.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.5486329990390306
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.5774297118186951
+      ],
+      "sam_quality_scores": [
+        0.843091607093811
+      ]
+    },
+    {
+      "image_id": 549,
+      "file_name": "be312d92-140525-0087-JZ01-BH01_ZDBQ402.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.9338979379210035
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.999923825263977
+      ],
+      "sam_quality_scores": [
+        0.9192090630531311
+      ]
+    },
+    {
+      "image_id": 550,
+      "file_name": "4ebc4a7f-140525-0087-JZ01-BH01_ZDBQ405.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8918564012575857
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999608993530273
+      ],
+      "sam_quality_scores": [
+        0.9031636118888855
+      ]
+    },
+    {
+      "image_id": 554,
+      "file_name": "3c69384a-140525-0087-JZ01-BH01_ZDBQ419.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.9600131112756971
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999809265136719
+      ],
+      "sam_quality_scores": [
+        0.9231593012809753
+      ]
+    },
+    {
+      "image_id": 556,
+      "file_name": "8dafebd8-140525-0087-JZ01-BH01_ZDBQ421.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 2,
+      "matched_ious": [
+        0.8641033108060613,
+        0.8593689802113128
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999527931213379,
+        0.9996825456619263
+      ],
+      "sam_quality_scores": [
+        0.849083662033081,
+        0.8468104004859924
+      ]
+    },
+    {
+      "image_id": 560,
+      "file_name": "341f1537-140525-0087-JZ01-BH01_ZDBQ426.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.7864138559282444
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998658895492554,
+        0.7264255881309509
+      ],
+      "sam_quality_scores": [
+        0.8855471014976501,
+        0.8787556290626526
+      ]
+    },
+    {
+      "image_id": 571,
+      "file_name": "9c13d430-140525-0087-JZ01-BH03_ZDNQ294.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8830098152655309
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999589920043945
+      ],
+      "sam_quality_scores": [
+        0.8633764386177063
+      ]
+    },
+    {
+      "image_id": 577,
+      "file_name": "2758e0a9-140525-0087-JZ01-BH03_ZDNQ389.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.804881538626635
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.998563826084137,
+        0.6261242032051086
+      ],
+      "sam_quality_scores": [
+        0.839652955532074,
+        0.9502633810043335
+      ]
+    },
+    {
+      "image_id": 600,
+      "file_name": "6bf221c0-140525-0664-JZ01-BH01_ZDXQ097.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.854144527098831
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999333620071411,
+        0.5604932308197021
+      ],
+      "sam_quality_scores": [
+        0.8211262226104736,
+        0.792739748954773
+      ]
+    },
+    {
+      "image_id": 608,
+      "file_name": "2a7b7291-140525-0664-JZ01-BH01_ZDXQ109.jpg",
+      "gt": 4,
+      "pred": 4,
+      "matched": 4,
+      "matched_ious": [
+        0.8821349731945758,
+        0.8774245361162852,
+        0.8686175486429545,
+        0.8215436835049488
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998247027397156,
+        0.9995600581169128,
+        0.9984487295150757,
+        0.9908387064933777
+      ],
+      "sam_quality_scores": [
+        0.8272179365158081,
+        0.8747382164001465,
+        0.8045929670333862,
+        0.8552372455596924
+      ]
+    },
+    {
+      "image_id": 609,
+      "file_name": "2efcb642-140525-0664-JZ01-BH01_ZDXQ110.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8786709805873569
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.999860405921936
+      ],
+      "sam_quality_scores": [
+        0.8479974865913391
+      ]
+    },
+    {
+      "image_id": 652,
+      "file_name": "4e9a4920-140525-0664-JZ01-BH02_ZDHQ036.jpg",
+      "gt": 6,
+      "pred": 8,
+      "matched": 6,
+      "matched_ious": [
+        0.8883630213590115,
+        0.859524315141219,
+        0.8275045171652279,
+        0.8065808411962259,
+        0.6421505729291,
+        0.6285937180274197
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999420642852783,
+        0.9999183416366577,
+        0.9998886585235596,
+        0.9998652935028076,
+        0.9998134970664978,
+        0.9995785355567932,
+        0.5491570830345154,
+        0.5460120439529419
+      ],
+      "sam_quality_scores": [
+        0.8695337772369385,
+        0.8709641695022583,
+        0.8690599203109741,
+        0.7828672528266907,
+        0.7149465084075928,
+        0.7632481455802917,
+        0.8697441816329956,
+        0.8971225619316101
+      ]
+    },
+    {
+      "image_id": 654,
+      "file_name": "5483382b-140525-0664-JZ01-BH02_ZDHQ038.jpg",
+      "gt": 3,
+      "pred": 4,
+      "matched": 3,
+      "matched_ious": [
+        0.8140724482577228,
+        0.735630081638761,
+        0.7284491013049544
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998781681060791,
+        0.9997879862785339,
+        0.9319647550582886,
+        0.6893056035041809
+      ],
+      "sam_quality_scores": [
+        0.8228282928466797,
+        0.7946001291275024,
+        0.8196824193000793,
+        0.9220579862594604
+      ]
+    },
+    {
+      "image_id": 672,
+      "file_name": "a405be40-140525-0664-JZ01-BH02_ZDHQ068.jpg",
+      "gt": 2,
+      "pred": 5,
+      "matched": 2,
+      "matched_ious": [
+        0.8372268853719484,
+        0.6519549426003222
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999152421951294,
+        0.9998301267623901,
+        0.7082125544548035,
+        0.6315943002700806,
+        0.5066829323768616
+      ],
+      "sam_quality_scores": [
+        0.6554524898529053,
+        0.7292384505271912,
+        0.8046992421150208,
+        0.8910743594169617,
+        0.8688129782676697
+      ]
+    },
+    {
+      "image_id": 697,
+      "file_name": "8b0211c6-140525-0664-JZ01-BH02_ZDHQ098.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.7313204018614361
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9779708981513977,
+        0.5306013822555542
+      ],
+      "sam_quality_scores": [
+        0.804593026638031,
+        0.8099316358566284
+      ]
+    },
+    {
+      "image_id": 704,
+      "file_name": "b6506b43-140525-0664-JZ01-BH02_ZDHQ111.jpg",
+      "gt": 2,
+      "pred": 0,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [],
+      "candidate_scores": [],
+      "sam_quality_scores": []
+    },
+    {
+      "image_id": 712,
+      "file_name": "d045fa01-140525-0664-JZ01-BH03_ZDDQ100.jpg",
+      "gt": 3,
+      "pred": 5,
+      "matched": 3,
+      "matched_ious": [
+        0.8693868446837832,
+        0.8302673434856176,
+        0.6737830771536578
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999668598175049,
+        0.9998555183410645,
+        0.9996678829193115,
+        0.722527027130127,
+        0.5055844783782959
+      ],
+      "sam_quality_scores": [
+        0.8801375031471252,
+        0.8322590589523315,
+        0.7313766479492188,
+        0.8771801590919495,
+        0.8204873204231262
+      ]
+    },
+    {
+      "image_id": 735,
+      "file_name": "c4ee0c70-140525-0751-JZ01-BH01_ZDXQ152.jpg",
+      "gt": 1,
+      "pred": 0,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [],
+      "candidate_scores": [],
+      "sam_quality_scores": []
+    },
+    {
+      "image_id": 743,
+      "file_name": "ded6bb61-140525-0751-JZ01-BH01_ZDXQ211.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8215198107071146
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.999351441860199,
+        0.729519784450531
+      ],
+      "sam_quality_scores": [
+        0.7303081750869751,
+        0.9279299974441528
+      ]
+    },
+    {
+      "image_id": 748,
+      "file_name": "d4b646a3-140525-0751-JZ01-BH01_ZDXQ232.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8197288994286946
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9997197985649109,
+        0.7969253659248352
+      ],
+      "sam_quality_scores": [
+        0.8313777446746826,
+        0.8938089609146118
+      ]
+    },
+    {
+      "image_id": 749,
+      "file_name": "add80531-140525-0751-JZ01-BH01_ZDXQ233.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.6871096305990125
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.6368051171302795
+      ],
+      "sam_quality_scores": [
+        0.8579754829406738
+      ]
+    },
+    {
+      "image_id": 755,
+      "file_name": "d34fd01c-140525-0751-JZ01-BH02_ZDHQ083.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8560039482176075
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999380111694336,
+        0.6766199469566345
+      ],
+      "sam_quality_scores": [
+        0.812546968460083,
+        0.7997908592224121
+      ]
+    },
+    {
+      "image_id": 766,
+      "file_name": "a67fb3a9-140525-0751-JZ01-BH02_ZDHQ140.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.8364557608788215
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.999858021736145,
+        0.7563575506210327
+      ],
+      "sam_quality_scores": [
+        0.8542462587356567,
+        0.8271589875221252
+      ]
+    },
+    {
+      "image_id": 783,
+      "file_name": "400a7582-140525-0751-JZ01-BH03_ZDDQ126.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8148956683055835
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9997525811195374
+      ],
+      "sam_quality_scores": [
+        0.8787500858306885
+      ]
+    },
+    {
+      "image_id": 785,
+      "file_name": "0f6e5ba7-140525-0751-JZ01-BH03_ZDDQ128.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.9119082319061311
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998981952667236
+      ],
+      "sam_quality_scores": [
+        0.9099661111831665
+      ]
+    },
+    {
+      "image_id": 786,
+      "file_name": "9d814a24-140525-0751-JZ01-BH03_ZDDQ129.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.7683566891475434
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9901021718978882
+      ],
+      "sam_quality_scores": [
+        0.7304808497428894
+      ]
+    },
+    {
+      "image_id": 789,
+      "file_name": "1ce33e59-140525-0751-JZ01-BH03_ZDDQ132.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8501140563967229
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998303651809692
+      ],
+      "sam_quality_scores": [
+        0.8037115931510925
+      ]
+    },
+    {
+      "image_id": 796,
+      "file_name": "15a7b427-140525-0751-JZ01-BH03_ZDDQ159.jpg",
+      "gt": 2,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8442051217630641
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999264478683472
+      ],
+      "sam_quality_scores": [
+        0.869935929775238
+      ]
+    },
+    {
+      "image_id": 821,
+      "file_name": "bdef0da8-140581-0008-JZ01-BH01033.jpg",
+      "gt": 2,
+      "pred": 4,
+      "matched": 2,
+      "matched_ious": [
+        0.9260685299576189,
+        0.8817520634142355
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999635219573975,
+        0.9999386072158813,
+        0.7310585379600525,
+        0.5428633093833923
+      ],
+      "sam_quality_scores": [
+        0.881218671798706,
+        0.8673372268676758,
+        0.838805079460144,
+        0.8822866082191467
+      ]
+    },
+    {
+      "image_id": 828,
+      "file_name": "9ef72078-140581-0008-JZ01-BH03053.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 2,
+      "matched_ious": [
+        0.904410336118127,
+        0.8371604050240691
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999407529830933,
+        0.9998494386672974
+      ],
+      "sam_quality_scores": [
+        0.8681554198265076,
+        0.8445978164672852
+      ]
+    },
+    {
+      "image_id": 832,
+      "file_name": "3316fd95-140581-0008-JZ01-BH03066.jpg",
+      "gt": 1,
+      "pred": 3,
+      "matched": 1,
+      "matched_ious": [
+        0.8777713673452567
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999542236328125,
+        0.6361271142959595,
+        0.5311505198478699
+      ],
+      "sam_quality_scores": [
+        0.8765686750411987,
+        0.8771628141403198,
+        0.8598114848136902
+      ]
+    },
+    {
+      "image_id": 870,
+      "file_name": "20b12ab0-140581-0008-JZ02-BH08014.jpg",
+      "gt": 2,
+      "pred": 5,
+      "matched": 2,
+      "matched_ious": [
+        0.8318604094018687,
+        0.7200632536074323
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998829364776611,
+        0.9981817007064819,
+        0.6680145263671875,
+        0.6216877102851868,
+        0.6206215620040894
+      ],
+      "sam_quality_scores": [
+        0.8224614262580872,
+        0.7767341732978821,
+        0.8958051800727844,
+        0.8939239978790283,
+        0.8732010722160339
+      ]
+    },
+    {
+      "image_id": 875,
+      "file_name": "f1876765-140581-0008-JZ02-BH08028.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.9485052780981106,
+        0.6973512644071991
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.999876856803894,
+        0.9930197596549988,
+        0.5945512652397156
+      ],
+      "sam_quality_scores": [
+        0.8661298751831055,
+        0.719359278678894,
+        0.8904290199279785
+      ]
+    },
+    {
+      "image_id": 876,
+      "file_name": "55923887-140581-0008-JZ02-BH08029.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 2,
+      "matched_ious": [
+        0.9282765209676869,
+        0.5297963223420326
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999476671218872,
+        0.9993075132369995
+      ],
+      "sam_quality_scores": [
+        0.9059649109840393,
+        0.8868061304092407
+      ]
+    },
+    {
+      "image_id": 892,
+      "file_name": "823e2d7c-140581-0008-JZ02-BH10058.jpg",
+      "gt": 2,
+      "pred": 4,
+      "matched": 2,
+      "matched_ious": [
+        0.8939058852438875,
+        0.8608598032094037
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999788999557495,
+        0.99992835521698,
+        0.6504672765731812,
+        0.6099889278411865
+      ],
+      "sam_quality_scores": [
+        0.8857693672180176,
+        0.8924416303634644,
+        0.9054641127586365,
+        0.9459962844848633
+      ]
+    },
+    {
+      "image_id": 908,
+      "file_name": "b96f3fe3-140581-0008-JZ02-BH11027.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.7702896395056387
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998352527618408
+      ],
+      "sam_quality_scores": [
+        0.8429287075996399
+      ]
+    },
+    {
+      "image_id": 937,
+      "file_name": "6cddcd9a-140581-0008-JZ03-BH15045.jpg",
+      "gt": 2,
+      "pred": 4,
+      "matched": 2,
+      "matched_ious": [
+        0.8942790110088432,
+        0.8167846597175282
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999735355377197,
+        0.9999691247940063,
+        0.6893056035041809,
+        0.66888028383255
+      ],
+      "sam_quality_scores": [
+        0.8877485990524292,
+        0.8949088454246521,
+        0.9304258823394775,
+        0.9305263161659241
+      ]
+    },
+    {
+      "image_id": 946,
+      "file_name": "793f82f4-140581-0008-JZ03-BH17047.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.9056719558166039
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999617338180542
+      ],
+      "sam_quality_scores": [
+        0.8351778388023376
+      ]
+    },
+    {
+      "image_id": 947,
+      "file_name": "b81c8122-140581-0008-JZ03-BH17048.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.9060370435086493
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9996089339256287
+      ],
+      "sam_quality_scores": [
+        0.807097315788269
+      ]
+    },
+    {
+      "image_id": 957,
+      "file_name": "46236504-140581-0008-JZ03-BH17060.jpg",
+      "gt": 2,
+      "pred": 4,
+      "matched": 2,
+      "matched_ious": [
+        0.8688086166471278,
+        0.864096597698258
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999217987060547,
+        0.9998867511749268,
+        0.5614553093910217,
+        0.5084220767021179
+      ],
+      "sam_quality_scores": [
+        0.8445154428482056,
+        0.854924201965332,
+        0.7536838054656982,
+        0.8364758491516113
+      ]
+    },
+    {
+      "image_id": 958,
+      "file_name": "2174103b-140581-0008-JZ03-BH17062.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.9175022058233737,
+        0.8400213447171825
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998685121536255,
+        0.999714195728302,
+        0.7718434929847717
+      ],
+      "sam_quality_scores": [
+        0.8632686734199524,
+        0.8745245337486267,
+        0.8505463004112244
+      ]
+    },
+    {
+      "image_id": 964,
+      "file_name": "1c7d982e-140581-0008-JZ03-BH17068.jpg",
+      "gt": 3,
+      "pred": 6,
+      "matched": 3,
+      "matched_ious": [
+        0.8855076136285103,
+        0.8090693975716668,
+        0.7204344716955606
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999327659606934,
+        0.9998489618301392,
+        0.9997976422309875,
+        0.9997807145118713,
+        0.7130321860313416,
+        0.6834195256233215
+      ],
+      "sam_quality_scores": [
+        0.8750728964805603,
+        0.7520763278007507,
+        0.8082573413848877,
+        0.8242850303649902,
+        0.9541826248168945,
+        0.8989897966384888
+      ]
+    },
+    {
+      "image_id": 976,
+      "file_name": "056baca6-140581-0008-JZ03-BH18018.jpg",
+      "gt": 3,
+      "pred": 4,
+      "matched": 3,
+      "matched_ious": [
+        0.9338768371463229,
+        0.9040885913598399,
+        0.7373468970613669
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999644756317139,
+        0.9999279975891113,
+        0.9996832609176636,
+        0.6469064354896545
+      ],
+      "sam_quality_scores": [
+        0.9046534299850464,
+        0.8499505519866943,
+        0.6864951252937317,
+        0.8200808763504028
+      ]
+    },
+    {
+      "image_id": 1028,
+      "file_name": "6696c897-140581-0129-JZ01-BH01-ZDXSQ132.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 1,
+      "matched_ious": [
+        0.8699472361240065
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999514818191528,
+        0.7114308476448059,
+        0.696784257888794
+      ],
+      "sam_quality_scores": [
+        0.8578589558601379,
+        0.8961966037750244,
+        0.8726019859313965
+      ]
+    },
+    {
+      "image_id": 1040,
+      "file_name": "39a4a9c2-140581-0129-JZ01-BH04-ZDDSQ053.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 2,
+      "matched_ious": [
+        0.8550753792630109,
+        0.7574812232111259
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999067783355713,
+        0.999420166015625
+      ],
+      "sam_quality_scores": [
+        0.8218048214912415,
+        0.7803385257720947
+      ]
+    },
+    {
+      "image_id": 1052,
+      "file_name": "3cf57edc-140581-0129-JZ01-BH04-ZDDSQ079.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.680611281193152
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9989967942237854
+      ],
+      "sam_quality_scores": [
+        0.8121210932731628
+      ]
+    },
+    {
+      "image_id": 1061,
+      "file_name": "10926d77-140581-0129-JZ01-BH04-ZDDSQ107.jpg",
+      "gt": 2,
+      "pred": 5,
+      "matched": 2,
+      "matched_ious": [
+        0.8984274398095758,
+        0.8980169655895041
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.999976634979248,
+        0.999966025352478,
+        0.7074047327041626,
+        0.703345775604248,
+        0.6223964095115662
+      ],
+      "sam_quality_scores": [
+        0.8912468552589417,
+        0.890338659286499,
+        0.7988576889038086,
+        0.8733651638031006,
+        0.9662039875984192
+      ]
+    },
+    {
+      "image_id": 1101,
+      "file_name": "1b6eab65-140581-0290-JZ08-BH02HQDC030.jpg",
+      "gt": 16,
+      "pred": 15,
+      "matched": 14,
+      "matched_ious": [
+        0.8816542490011878,
+        0.8800882293964307,
+        0.8723824975916443,
+        0.8664530466690785,
+        0.8610415077895196,
+        0.8545028763427175,
+        0.8474314983340793,
+        0.8276874534379245,
+        0.8098125127369065,
+        0.7964120919401441,
+        0.7893662618634555,
+        0.7693621611902729,
+        0.7612685497665388,
+        0.6725731547860588
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998546838760376,
+        0.9998412132263184,
+        0.9997969269752502,
+        0.999729573726654,
+        0.9995805621147156,
+        0.9992061257362366,
+        0.9982574582099915,
+        0.9981104135513306,
+        0.9979866743087769,
+        0.9979520440101624,
+        0.9978318810462952,
+        0.9495248794555664,
+        0.94939786195755,
+        0.8437718749046326,
+        0.8351019024848938
+      ],
+      "sam_quality_scores": [
+        0.8732524514198303,
+        0.8835679888725281,
+        0.8853179216384888,
+        0.8582303524017334,
+        0.8858920931816101,
+        0.8644360899925232,
+        0.8584400415420532,
+        0.835105836391449,
+        0.842453122138977,
+        0.879641592502594,
+        0.8330286145210266,
+        0.8470772504806519,
+        0.8010837435722351,
+        0.8535345792770386,
+        0.8428871631622314
+      ]
+    },
+    {
+      "image_id": 1111,
+      "file_name": "4a8c9726-140581-0290-JZ08-BH02HQXC011.jpg",
+      "gt": 11,
+      "pred": 13,
+      "matched": 11,
+      "matched_ious": [
+        0.8680187830952143,
+        0.8135101533360961,
+        0.8097315879941822,
+        0.8062358141201768,
+        0.7986943924890894,
+        0.7976362063995388,
+        0.7695121951219512,
+        0.7185436537050623,
+        0.6977001939595456,
+        0.6557651574126039,
+        0.6426273736640034
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998828172683716,
+        0.9997621178627014,
+        0.9997138381004333,
+        0.9995880722999573,
+        0.9995070695877075,
+        0.9994757771492004,
+        0.9993999004364014,
+        0.9992966651916504,
+        0.9990629553794861,
+        0.9984499216079712,
+        0.9944183826446533,
+        0.8595265746116638,
+        0.543832540512085
+      ],
+      "sam_quality_scores": [
+        0.8828331232070923,
+        0.7585248351097107,
+        0.8528919219970703,
+        0.8622549176216125,
+        0.8483628630638123,
+        0.8874608278274536,
+        0.8664289116859436,
+        0.8663726449012756,
+        0.8537081480026245,
+        0.8391833901405334,
+        0.8482097387313843,
+        0.8263280391693115,
+        0.810719907283783
+      ]
+    },
+    {
+      "image_id": 1116,
+      "file_name": "7b20ab7c-140581-0290-JZ08-BH02HQXC016.jpg",
+      "gt": 8,
+      "pred": 8,
+      "matched": 6,
+      "matched_ious": [
+        0.8998658168399866,
+        0.8876512581641436,
+        0.8202045844844321,
+        0.7845998602809905,
+        0.7673380511703864,
+        0.6512732334397773
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999556541442871,
+        0.9998928308486938,
+        0.9997490048408508,
+        0.9996521472930908,
+        0.9995599389076233,
+        0.9994743466377258,
+        0.9953959584236145,
+        0.7427890300750732
+      ],
+      "sam_quality_scores": [
+        0.879482626914978,
+        0.8858509659767151,
+        0.8841578960418701,
+        0.8592782020568848,
+        0.8616772294044495,
+        0.8466362953186035,
+        0.8439001441001892,
+        0.8011928200721741
+      ]
+    },
+    {
+      "image_id": 1117,
+      "file_name": "c3f931ba-140581-0290-JZ08-BH02HQXC017.jpg",
+      "gt": 12,
+      "pred": 11,
+      "matched": 10,
+      "matched_ious": [
+        0.8990304830116167,
+        0.864737860499401,
+        0.8373193611087636,
+        0.8338680926916221,
+        0.8237599073826699,
+        0.7973582474226805,
+        0.7912605588044185,
+        0.7702492848385778,
+        0.7643175960269064,
+        0.685042735042735
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999445676803589,
+        0.9998939037322998,
+        0.9998887777328491,
+        0.9998738765716553,
+        0.9998235106468201,
+        0.9997511506080627,
+        0.9997100234031677,
+        0.9996354579925537,
+        0.9995970129966736,
+        0.9994100332260132,
+        0.5240293145179749
+      ],
+      "sam_quality_scores": [
+        0.8742750883102417,
+        0.8821207880973816,
+        0.87317955493927,
+        0.8714879155158997,
+        0.8826630711555481,
+        0.8572664856910706,
+        0.8275967836380005,
+        0.8599920272827148,
+        0.8652704358100891,
+        0.8229332566261292,
+        0.8423569202423096
+      ]
+    },
+    {
+      "image_id": 1121,
+      "file_name": "20aaa1d3-140581-0290-JZ08-BH02HQXC021.jpg",
+      "gt": 6,
+      "pred": 6,
+      "matched": 5,
+      "matched_ious": [
+        0.8734983471740708,
+        0.8622716238661046,
+        0.793874021481886,
+        0.7635943517329911,
+        0.7440484106929113
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9997567534446716,
+        0.9995025396347046,
+        0.9990898370742798,
+        0.9917707443237305,
+        0.8931751251220703,
+        0.5679365992546082
+      ],
+      "sam_quality_scores": [
+        0.812204122543335,
+        0.8677710890769958,
+        0.8321353793144226,
+        0.8120149970054626,
+        0.7880141139030457,
+        0.8031660914421082
+      ]
+    },
+    {
+      "image_id": 1134,
+      "file_name": "e051462e-140581-0290-JZ08-BH01007.jpg",
+      "gt": 21,
+      "pred": 25,
+      "matched": 19,
+      "matched_ious": [
+        0.8979359250348233,
+        0.8970838533983887,
+        0.8828225598763842,
+        0.8804361141737106,
+        0.8769580934529388,
+        0.872228485531755,
+        0.8699305399955187,
+        0.855334910999074,
+        0.8512780790085205,
+        0.8475807830398359,
+        0.8343444436514167,
+        0.83165984876658,
+        0.8194955000633793,
+        0.8105955240864837,
+        0.7974420297390038,
+        0.7820968730839976,
+        0.7063172914774939,
+        0.6463826910074375,
+        0.6077243468383188
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "text_grounding_dino",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.999945878982544,
+        0.9999059438705444,
+        0.9998878240585327,
+        0.999880313873291,
+        0.9998691082000732,
+        0.9998683929443359,
+        0.9998507499694824,
+        0.9998258948326111,
+        0.9998088479042053,
+        0.9997965693473816,
+        0.999728262424469,
+        0.998918890953064,
+        0.9985492825508118,
+        0.9984217882156372,
+        0.9981448650360107,
+        0.9969695210456848,
+        0.990820586681366,
+        0.9597517848014832,
+        0.5746335387229919,
+        0.5621670484542847,
+        0.5597714185714722,
+        0.524394690990448,
+        0.5157418251037598,
+        0.5155150294303894,
+        0.5110455751419067
+      ],
+      "sam_quality_scores": [
+        0.8765818476676941,
+        0.8559055328369141,
+        0.8485768437385559,
+        0.8991133570671082,
+        0.8565045595169067,
+        0.8746848106384277,
+        0.8836480379104614,
+        0.8285663723945618,
+        0.8793336153030396,
+        0.7907732725143433,
+        0.8732742667198181,
+        0.7914634346961975,
+        0.863461971282959,
+        0.8521035313606262,
+        0.8269317150115967,
+        0.8759354948997498,
+        0.8407002687454224,
+        0.7824130058288574,
+        0.8731664419174194,
+        0.8672901391983032,
+        0.9071002006530762,
+        0.8752182126045227,
+        0.8758391737937927,
+        0.852625846862793,
+        0.8596893548965454
+      ]
+    },
+    {
+      "image_id": 1148,
+      "file_name": "07cf889b-140581-0290-JZ08-BH01021.jpg",
+      "gt": 10,
+      "pred": 6,
+      "matched": 6,
+      "matched_ious": [
+        0.8338146495143082,
+        0.8015919811320755,
+        0.7935424671675173,
+        0.6385561540316745,
+        0.6221786512242944,
+        0.612773447322102
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999475479125977,
+        0.9999245405197144,
+        0.9997789263725281,
+        0.9994839429855347,
+        0.9988790154457092,
+        0.998241662979126
+      ],
+      "sam_quality_scores": [
+        0.8378535509109497,
+        0.8218973875045776,
+        0.8734450936317444,
+        0.7435593605041504,
+        0.7719550728797913,
+        0.8667568564414978
+      ]
+    },
+    {
+      "image_id": 1151,
+      "file_name": "ba98ef65-140581-0290-JZ08-BH01024.jpg",
+      "gt": 12,
+      "pred": 11,
+      "matched": 11,
+      "matched_ious": [
+        0.9439120724368213,
+        0.9222801458312038,
+        0.9006584893479664,
+        0.8825696740670761,
+        0.8578905103425359,
+        0.8306179314866415,
+        0.8273448113338324,
+        0.8179365307984061,
+        0.7646316261933928,
+        0.7518479408658922,
+        0.7196742560127783
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999672174453735,
+        0.9998061060905457,
+        0.999749481678009,
+        0.999649167060852,
+        0.9994593262672424,
+        0.9993946552276611,
+        0.9992341995239258,
+        0.9990828037261963,
+        0.9986867308616638,
+        0.9983750581741333,
+        0.9953189492225647
+      ],
+      "sam_quality_scores": [
+        0.9121007323265076,
+        0.8782363533973694,
+        0.9069730043411255,
+        0.8171969056129456,
+        0.8085949420928955,
+        0.8563862442970276,
+        0.8142821788787842,
+        0.9119958281517029,
+        0.8680419325828552,
+        0.9062047004699707,
+        0.811062753200531
+      ]
+    },
+    {
+      "image_id": 1158,
+      "file_name": "e4a6263a-140581-0290-JZ08-BH01031.jpg",
+      "gt": 12,
+      "pred": 11,
+      "matched": 11,
+      "matched_ious": [
+        0.9515862491074161,
+        0.9409849292568366,
+        0.9259834943192332,
+        0.8728629359286294,
+        0.8474437348451214,
+        0.8292067111907476,
+        0.8172299957180547,
+        0.8124611601956175,
+        0.7778411792677128,
+        0.7345489443378119,
+        0.6762880198634389
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999762773513794,
+        0.9999243021011353,
+        0.9998958110809326,
+        0.9997490048408508,
+        0.9997196793556213,
+        0.9996852874755859,
+        0.9996334314346313,
+        0.9996095299720764,
+        0.9992669224739075,
+        0.9988290667533875,
+        0.9987737536430359
+      ],
+      "sam_quality_scores": [
+        0.9205730557441711,
+        0.9321181178092957,
+        0.7869256138801575,
+        0.8812033534049988,
+        0.8470451831817627,
+        0.8385710716247559,
+        0.8763188123703003,
+        0.7899361252784729,
+        0.8720600605010986,
+        0.8852320909500122,
+        0.8717436790466309
+      ]
+    },
+    {
+      "image_id": 1167,
+      "file_name": "c0f493c7-140581-0290-JZ08-BH01040.jpg",
+      "gt": 18,
+      "pred": 13,
+      "matched": 12,
+      "matched_ious": [
+        0.8997838475142464,
+        0.8765379200587623,
+        0.8529551201011378,
+        0.8236902050113896,
+        0.820943987011481,
+        0.809764136368318,
+        0.8054960153888431,
+        0.7850340136054422,
+        0.7453684210526316,
+        0.7378922356558809,
+        0.7215713702861806,
+        0.6496648044692738
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998171925544739,
+        0.9997691512107849,
+        0.9997512698173523,
+        0.9996744394302368,
+        0.9996535778045654,
+        0.999637246131897,
+        0.9996151924133301,
+        0.9993504881858826,
+        0.9984069466590881,
+        0.9979360103607178,
+        0.9965559244155884,
+        0.9648005366325378,
+        0.8595577478408813
+      ],
+      "sam_quality_scores": [
+        0.8840025663375854,
+        0.8311973810195923,
+        0.8333526849746704,
+        0.7388973832130432,
+        0.8761930465698242,
+        0.7957937717437744,
+        0.835746169090271,
+        0.7839051485061646,
+        0.8127632141113281,
+        0.8150371313095093,
+        0.8578136563301086,
+        0.8913607001304626,
+        0.7956498265266418
+      ]
+    },
+    {
+      "image_id": 1179,
+      "file_name": "3a2e454f-140581-0290-JZ08-BH01052.jpg",
+      "gt": 17,
+      "pred": 20,
+      "matched": 17,
+      "matched_ious": [
+        0.9198326771653543,
+        0.8803336259877085,
+        0.8739327500790556,
+        0.8557314148681056,
+        0.845358671817897,
+        0.8355714909437307,
+        0.8146624727800629,
+        0.8115331541869417,
+        0.8062468682144647,
+        0.7962678936605317,
+        0.7937388193202146,
+        0.7894574361349078,
+        0.7838868584141109,
+        0.7769660945812584,
+        0.769400038832438,
+        0.7663355985363304,
+        0.7637147521754981
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999182224273682,
+        0.9999033212661743,
+        0.9997788071632385,
+        0.9997168183326721,
+        0.9996827840805054,
+        0.9996459484100342,
+        0.9996368885040283,
+        0.9995507597923279,
+        0.999549925327301,
+        0.9995477795600891,
+        0.999498724937439,
+        0.9993613362312317,
+        0.999301552772522,
+        0.9992188215255737,
+        0.9986427426338196,
+        0.9986312985420227,
+        0.9981416463851929,
+        0.9967464208602905,
+        0.995341420173645,
+        0.9863596558570862
+      ],
+      "sam_quality_scores": [
+        0.8954280614852905,
+        0.8312680125236511,
+        0.8620632290840149,
+        0.8603452444076538,
+        0.852299153804779,
+        0.8560075759887695,
+        0.8677696585655212,
+        0.795874834060669,
+        0.8099819421768188,
+        0.8610114455223083,
+        0.8794066309928894,
+        0.8257531523704529,
+        0.8596450686454773,
+        0.7980451583862305,
+        0.8442758321762085,
+        0.8607453107833862,
+        0.8613941073417664,
+        0.8510376214981079,
+        0.7803962230682373,
+        0.8075011968612671
+      ]
+    },
+    {
+      "image_id": 1200,
+      "file_name": "85320cfd-140581-0290-JZ08-BH01073.jpg",
+      "gt": 20,
+      "pred": 22,
+      "matched": 20,
+      "matched_ious": [
+        0.8976860389030992,
+        0.8894778815030258,
+        0.8846201358863496,
+        0.8615962134813122,
+        0.8527611488531647,
+        0.8413404377119204,
+        0.838297433783366,
+        0.8352389713935252,
+        0.8307661126874747,
+        0.8067992972793314,
+        0.8007471102340006,
+        0.7926119681844873,
+        0.7913877733154842,
+        0.7752307234295921,
+        0.76099560761347,
+        0.7540010002500626,
+        0.7484696716750139,
+        0.7323864435381803,
+        0.7008058670532554,
+        0.655713218820015
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998996257781982,
+        0.9998606443405151,
+        0.9998553991317749,
+        0.9998511075973511,
+        0.9997859597206116,
+        0.9997790455818176,
+        0.9997708201408386,
+        0.9997487664222717,
+        0.9997060894966125,
+        0.9996907711029053,
+        0.9995272159576416,
+        0.9994674324989319,
+        0.9994096755981445,
+        0.9989051818847656,
+        0.9979084730148315,
+        0.9968811273574829,
+        0.9932395219802856,
+        0.9190754294395447,
+        0.7057281136512756,
+        0.6357139348983765,
+        0.5155177116394043,
+        0.5005645751953125
+      ],
+      "sam_quality_scores": [
+        0.8146950006484985,
+        0.8795003890991211,
+        0.8219298124313354,
+        0.8658578991889954,
+        0.8080694675445557,
+        0.833922803401947,
+        0.8564912676811218,
+        0.8287843465805054,
+        0.8168841600418091,
+        0.8619032502174377,
+        0.861467719078064,
+        0.816532552242279,
+        0.802783727645874,
+        0.8294044137001038,
+        0.799468994140625,
+        0.8438947200775146,
+        0.8580567240715027,
+        0.7410593628883362,
+        0.8255036473274231,
+        0.7954016923904419,
+        0.7402304410934448,
+        0.8909578919410706
+      ]
+    },
+    {
+      "image_id": 1213,
+      "file_name": "c2b55044-140581-0290-JZ08-BH01086.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 2,
+      "matched_ious": [
+        0.8115873763542157,
+        0.6658628727594245
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9997536540031433,
+        0.9997468590736389
+      ],
+      "sam_quality_scores": [
+        0.8216537237167358,
+        0.7803618907928467
+      ]
+    },
+    {
+      "image_id": 1215,
+      "file_name": "04839d89-140581-0290-JZ08-BH01088.jpg",
+      "gt": 10,
+      "pred": 10,
+      "matched": 9,
+      "matched_ious": [
+        0.8810335036910846,
+        0.8411602209944752,
+        0.8382679496669134,
+        0.8338445061097317,
+        0.8326918392204629,
+        0.8302493008865354,
+        0.7900881223167884,
+        0.7577685343772939,
+        0.6861390774994146
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998435974121094,
+        0.9995892643928528,
+        0.9995676875114441,
+        0.9990659356117249,
+        0.9990050196647644,
+        0.9989696741104126,
+        0.9901402592658997,
+        0.9866126775741577,
+        0.7965764403343201,
+        0.5209837555885315
+      ],
+      "sam_quality_scores": [
+        0.8739044666290283,
+        0.8361598253250122,
+        0.821372926235199,
+        0.8386226296424866,
+        0.8633349537849426,
+        0.844298779964447,
+        0.8510804176330566,
+        0.8496969938278198,
+        0.8251597881317139,
+        0.8498262763023376
+      ]
+    },
+    {
+      "image_id": 1224,
+      "file_name": "5df5c551-140581-0290-JZ08-BH01099.jpg",
+      "gt": 4,
+      "pred": 5,
+      "matched": 4,
+      "matched_ious": [
+        0.8013090394480806,
+        0.7979141857024287,
+        0.7907181412813894,
+        0.7689302884615384
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9997950196266174,
+        0.9997866749763489,
+        0.9983556866645813,
+        0.9641817808151245,
+        0.9146766066551208
+      ],
+      "sam_quality_scores": [
+        0.8232555985450745,
+        0.8518553376197815,
+        0.8086610436439514,
+        0.855955958366394,
+        0.7512303590774536
+      ]
+    },
+    {
+      "image_id": 1227,
+      "file_name": "d340473e-140581-0290-JZ08-BH03007.jpg",
+      "gt": 2,
+      "pred": 4,
+      "matched": 2,
+      "matched_ious": [
+        0.8574680662703933,
+        0.7743007477153143
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998750686645508,
+        0.9968196153640747,
+        0.6531268954277039,
+        0.5732006430625916
+      ],
+      "sam_quality_scores": [
+        0.853236973285675,
+        0.8314817547798157,
+        0.79643714427948,
+        0.8487923741340637
+      ]
+    },
+    {
+      "image_id": 1250,
+      "file_name": "731819f3-140581-0290-JZ08-BH03036.jpg",
+      "gt": 2,
+      "pred": 4,
+      "matched": 2,
+      "matched_ious": [
+        0.8075811660717321,
+        0.6212391063770922
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999399185180664,
+        0.9996297359466553,
+        0.9918040037155151,
+        0.6334102749824524
+      ],
+      "sam_quality_scores": [
+        0.7701754570007324,
+        0.791133463382721,
+        0.7653757929801941,
+        0.8342345356941223
+      ]
+    },
+    {
+      "image_id": 1254,
+      "file_name": "d991b32c-140581-0290-JZ08-BH03040.jpg",
+      "gt": 4,
+      "pred": 4,
+      "matched": 4,
+      "matched_ious": [
+        0.855854230561068,
+        0.7703570376291231,
+        0.7174749145914355,
+        0.6264707710614416
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9996984004974365,
+        0.9995278120040894,
+        0.9925206899642944,
+        0.9923944473266602
+      ],
+      "sam_quality_scores": [
+        0.8643715977668762,
+        0.7727610468864441,
+        0.902661144733429,
+        0.7583355903625488
+      ]
+    },
+    {
+      "image_id": 1265,
+      "file_name": "4da8913d-140581-0290-JZ08-BH03052.jpg",
+      "gt": 9,
+      "pred": 11,
+      "matched": 8,
+      "matched_ious": [
+        0.8674564555004776,
+        0.8520865432607799,
+        0.8148202173437386,
+        0.7536157145870936,
+        0.7289120634403345,
+        0.7126272036691988,
+        0.6916539591624205,
+        0.6766198204002738
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998072981834412,
+        0.9997473359107971,
+        0.9997376799583435,
+        0.9997358918190002,
+        0.9997132420539856,
+        0.9996078610420227,
+        0.9995150566101074,
+        0.9994158744812012,
+        0.9988722205162048,
+        0.9961339235305786,
+        0.8514162302017212
+      ],
+      "sam_quality_scores": [
+        0.7878150939941406,
+        0.8101093173027039,
+        0.8208979964256287,
+        0.7569945454597473,
+        0.7213047742843628,
+        0.8023930191993713,
+        0.7913484573364258,
+        0.8060671091079712,
+        0.8072635531425476,
+        0.8235472440719604,
+        0.8373281359672546
+      ]
+    },
+    {
+      "image_id": 1272,
+      "file_name": "a90c5193-140581-0290-JZ08-BH03060.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.6187307426455944
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9979174733161926,
+        0.9961552023887634
+      ],
+      "sam_quality_scores": [
+        0.834928035736084,
+        0.7629037499427795
+      ]
+    },
+    {
+      "image_id": 1283,
+      "file_name": "2b8b9f2d-140581-0290-JZ08-BH03072.jpg",
+      "gt": 11,
+      "pred": 13,
+      "matched": 9,
+      "matched_ious": [
+        0.8056614044637996,
+        0.7707339628151465,
+        0.7654285000416424,
+        0.7555762081784386,
+        0.7294036061026352,
+        0.7213866262549725,
+        0.6953419913419914,
+        0.6907643483405949,
+        0.6297879568553068
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999133348464966,
+        0.9997337460517883,
+        0.9997137188911438,
+        0.999688982963562,
+        0.9996110796928406,
+        0.9996034502983093,
+        0.9991757273674011,
+        0.9988168478012085,
+        0.99693763256073,
+        0.9625101685523987,
+        0.9323310852050781,
+        0.866936206817627,
+        0.7657402753829956
+      ],
+      "sam_quality_scores": [
+        0.8296984434127808,
+        0.87287837266922,
+        0.8139382600784302,
+        0.863821268081665,
+        0.8220186233520508,
+        0.8283020257949829,
+        0.8570056557655334,
+        0.8102430701255798,
+        0.8408253192901611,
+        0.8461667895317078,
+        0.7920238971710205,
+        0.8473575115203857,
+        0.8289551138877869
+      ]
+    },
+    {
+      "image_id": 1284,
+      "file_name": "87ac2d8f-140581-0290-JZ08-BH03073.jpg",
+      "gt": 8,
+      "pred": 7,
+      "matched": 6,
+      "matched_ious": [
+        0.8537038145996766,
+        0.7948176225688187,
+        0.7889223041078688,
+        0.6968439317201276,
+        0.6314382518417208,
+        0.6302454473475851
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9996849298477173,
+        0.9996485710144043,
+        0.9995966553688049,
+        0.9993708729743958,
+        0.9984897375106812,
+        0.9984098672866821,
+        0.5348554849624634
+      ],
+      "sam_quality_scores": [
+        0.8369563817977905,
+        0.8541783690452576,
+        0.8432607054710388,
+        0.7867807745933533,
+        0.8491094708442688,
+        0.8550414443016052,
+        0.7822326421737671
+      ]
+    },
+    {
+      "image_id": 1316,
+      "file_name": "0df3f412-140581-0558-JZ01-BH01036.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.7419919788437626,
+        0.5545706007403577
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9998971223831177,
+        0.9985974431037903,
+        0.6706082820892334
+      ],
+      "sam_quality_scores": [
+        0.5731903910636902,
+        0.8023070693016052,
+        0.8454591035842896
+      ]
+    },
+    {
+      "image_id": 1322,
+      "file_name": "3c3cdb99-140581-0558-JZ01-BH01045.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.563183511005143
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999456405639648
+      ],
+      "sam_quality_scores": [
+        0.8253829479217529
+      ]
+    },
+    {
+      "image_id": 1323,
+      "file_name": "1cae3da7-140581-0558-JZ01-BH01046.jpg",
+      "gt": 1,
+      "pred": 2,
+      "matched": 1,
+      "matched_ious": [
+        0.7132110528283504
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9996699094772339,
+        0.6183196306228638
+      ],
+      "sam_quality_scores": [
+        0.7896548509597778,
+        0.8102484941482544
+      ]
+    },
+    {
+      "image_id": 1327,
+      "file_name": "f8d68b20-140581-0558-JZ01-BH04018.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.6798011164434083
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999510049819946
+      ],
+      "sam_quality_scores": [
+        0.7789624929428101
+      ]
+    },
+    {
+      "image_id": 1334,
+      "file_name": "c8057266-140581-0558-JZ01-BH04031.jpg",
+      "gt": 2,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.6532791504760774
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9997726082801819
+      ],
+      "sam_quality_scores": [
+        0.7432599067687988
+      ]
+    },
+    {
+      "image_id": 1338,
+      "file_name": "636595a1-140581-0558-JZ01-BH04035.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.8401702158351214,
+        0.8249412090192281
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.9999188184738159,
+        0.9998304843902588,
+        0.5409238338470459
+      ],
+      "sam_quality_scores": [
+        0.8007573485374451,
+        0.7984334826469421,
+        0.7927152514457703
+      ]
+    },
+    {
+      "image_id": 1342,
+      "file_name": "dd6f8c0a-140581-0558-JZ01-BH04040.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.7573060217706044
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998773336410522
+      ],
+      "sam_quality_scores": [
+        0.7583669424057007
+      ]
+    },
+    {
+      "image_id": 1343,
+      "file_name": "beb64c47-140581-0558-JZ01-BH04041.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8122961428941238
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998801946640015
+      ],
+      "sam_quality_scores": [
+        0.8147646188735962
+      ]
+    },
+    {
+      "image_id": 1346,
+      "file_name": "8f2377e5-140581-0558-JZ01-BH04044.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8037537601152396
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9998677968978882
+      ],
+      "sam_quality_scores": [
+        0.7302629351615906
+      ]
+    },
+    {
+      "image_id": 1347,
+      "file_name": "a0b24ec7-140581-0558-JZ01-BH04045.jpg",
+      "gt": 2,
+      "pred": 2,
+      "matched": 2,
+      "matched_ious": [
+        0.8601156557342451,
+        0.8255043279852233
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9999126195907593,
+        0.9997703433036804
+      ],
+      "sam_quality_scores": [
+        0.7849078178405762,
+        0.7666177153587341
+      ]
+    },
+    {
+      "image_id": 1348,
+      "file_name": "49b3f3f1-140581-0558-JZ01-BH04046.jpg",
+      "gt": 2,
+      "pred": 3,
+      "matched": 2,
+      "matched_ious": [
+        0.8717533994094525,
+        0.7797183751521122
+      ],
+      "candidate_sources": [
+        "frozen_rcnn",
+        "frozen_rcnn",
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.999868631362915,
+        0.9996089339256287,
+        0.6379335522651672
+      ],
+      "sam_quality_scores": [
+        0.8378353118896484,
+        0.6962102651596069,
+        0.8029626607894897
+      ]
+    },
+    {
+      "image_id": 1350,
+      "file_name": "2de0ccca-140581-0558-JZ01-BH04048.jpg",
+      "gt": 3,
+      "pred": 1,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.5609742999076843
+      ],
+      "sam_quality_scores": [
+        0.8895120024681091
+      ]
+    },
+    {
+      "image_id": 1353,
+      "file_name": "f9e64a5b-140581-0558-JZ01-BH04055.jpg",
+      "gt": 1,
+      "pred": 1,
+      "matched": 1,
+      "matched_ious": [
+        0.8534067814739544
+      ],
+      "candidate_sources": [
+        "frozen_rcnn"
+      ],
+      "candidate_scores": [
+        0.9982379674911499
+      ],
+      "sam_quality_scores": [
+        0.7727388739585876
+      ]
+    },
+    {
+      "image_id": 1354,
+      "file_name": "6bfb6ddc-140581-0558-JZ01-BH04056.jpg",
+      "gt": 3,
+      "pred": 1,
+      "matched": 0,
+      "matched_ious": [],
+      "candidate_sources": [
+        "text_grounding_dino"
+      ],
+      "candidate_scores": [
+        0.5228112936019897
+      ],
+      "sam_quality_scores": [
+        0.8641849756240845
+      ]
+    }
+  ]
+}

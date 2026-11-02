@@ -1,0 +1,222 @@
+[
+  {
+    "epoch": 1,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_001.pth",
+    "seconds": 363.37,
+    "loss": 0.6197585629547636,
+    "loss_classifier": 0.11760401123513778,
+    "loss_box_reg": 0.17739362542168238,
+    "loss_mask": 0.28905149773384137,
+    "loss_objectness": 0.027049173699585177,
+    "loss_rpn_box_reg": 0.008660254149823838
+  },
+  {
+    "epoch": 2,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_002.pth",
+    "seconds": 353.72,
+    "loss": 0.45000312524537245,
+    "loss_classifier": 0.07623143456856875,
+    "loss_box_reg": 0.14570571907485524,
+    "loss_mask": 0.21259919401879113,
+    "loss_objectness": 0.009483726739395024,
+    "loss_rpn_box_reg": 0.0059830517507468055
+  },
+  {
+    "epoch": 3,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_003.pth",
+    "seconds": 301.63,
+    "loss": 0.3651880204180876,
+    "loss_classifier": 0.056432335588615386,
+    "loss_box_reg": 0.12052136115496978,
+    "loss_mask": 0.17872179011814296,
+    "loss_objectness": 0.004702658427132747,
+    "loss_rpn_box_reg": 0.004809874763110429
+  },
+  {
+    "epoch": 4,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_004.pth",
+    "seconds": 348.17,
+    "loss": 0.3137667288817465,
+    "loss_classifier": 0.04400226395480179,
+    "loss_box_reg": 0.10092287536283645,
+    "loss_mask": 0.16206980275300642,
+    "loss_objectness": 0.0028429771454976088,
+    "loss_rpn_box_reg": 0.003928809385985612
+  },
+  {
+    "epoch": 5,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_005.pth",
+    "seconds": 641.59,
+    "loss": 0.28102386934682727,
+    "loss_classifier": 0.03864782383335599,
+    "loss_box_reg": 0.08835545878624544,
+    "loss_mask": 0.14869326784275472,
+    "loss_objectness": 0.0018976154649940707,
+    "loss_rpn_box_reg": 0.003429703351869193
+  },
+  {
+    "epoch": 6,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_006.pth",
+    "seconds": 340.4,
+    "loss": 0.2551244922323773,
+    "loss_classifier": 0.032891850185696965,
+    "loss_box_reg": 0.0777610178051206,
+    "loss_mask": 0.14009578304054837,
+    "loss_objectness": 0.001304340774916947,
+    "loss_rpn_box_reg": 0.0030715001667613252
+  },
+  {
+    "epoch": 7,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_007.pth",
+    "seconds": 351.59,
+    "loss": 0.23951911866664888,
+    "loss_classifier": 0.030903800210411038,
+    "loss_box_reg": 0.07122762480168604,
+    "loss_mask": 0.1334372723971804,
+    "loss_objectness": 0.0012275664077678054,
+    "loss_rpn_box_reg": 0.002722854801383316
+  },
+  {
+    "epoch": 8,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_008.pth",
+    "seconds": 351.74,
+    "loss": 0.2237892025647064,
+    "loss_classifier": 0.027997633395910573,
+    "loss_box_reg": 0.06498425962869078,
+    "loss_mask": 0.12735047148230175,
+    "loss_objectness": 0.0009943115471383141,
+    "loss_rpn_box_reg": 0.002462526761564732
+  },
+  {
+    "epoch": 9,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_009.pth",
+    "seconds": 351.33,
+    "loss": 0.2080895852514853,
+    "loss_classifier": 0.02531035708632165,
+    "loss_box_reg": 0.05823107944064153,
+    "loss_mask": 0.12154599595814944,
+    "loss_objectness": 0.0008027394555824685,
+    "loss_rpn_box_reg": 0.0021994133497287294
+  },
+  {
+    "epoch": 10,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_010.pth",
+    "seconds": 350.13,
+    "loss": 0.19537634926227232,
+    "loss_classifier": 0.023271994320093654,
+    "loss_box_reg": 0.05287747692122745,
+    "loss_mask": 0.11655426926910878,
+    "loss_objectness": 0.000644522470848301,
+    "loss_rpn_box_reg": 0.0020280864287360602
+  },
+  {
+    "epoch": 11,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_011.pth",
+    "seconds": 354.84,
+    "loss": 0.17121430120741327,
+    "loss_classifier": 0.019879232096524597,
+    "loss_box_reg": 0.04028358565352391,
+    "loss_mask": 0.10893700178091725,
+    "loss_objectness": 0.0005351957194595987,
+    "loss_rpn_box_reg": 0.0015792852518738225
+  },
+  {
+    "epoch": 12,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_012.pth",
+    "seconds": 344.19,
+    "loss": 0.15903698581581313,
+    "loss_classifier": 0.018176861251316345,
+    "loss_box_reg": 0.03413412490840225,
+    "loss_mask": 0.10484336873516441,
+    "loss_objectness": 0.00045400574321973863,
+    "loss_rpn_box_reg": 0.001428625059541749
+  },
+  {
+    "epoch": 13,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_013.pth",
+    "seconds": 357.04,
+    "loss": 0.1525132245042672,
+    "loss_classifier": 0.016934946908149867,
+    "loss_box_reg": 0.030939437736718294,
+    "loss_mask": 0.10290668612656494,
+    "loss_objectness": 0.0003764975798598395,
+    "loss_rpn_box_reg": 0.0013556561426465426
+  },
+  {
+    "epoch": 14,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_014.pth",
+    "seconds": 341.51,
+    "loss": 0.14818499984530112,
+    "loss_classifier": 0.016431790519272908,
+    "loss_box_reg": 0.028871056312733952,
+    "loss_mask": 0.10118274935521185,
+    "loss_objectness": 0.0003924795522722491,
+    "loss_rpn_box_reg": 0.0013069238952671943
+  },
+  {
+    "epoch": 15,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_015.pth",
+    "seconds": 352.38,
+    "loss": 0.14466163592102627,
+    "loss_classifier": 0.0159382918511983,
+    "loss_box_reg": 0.027248390388752645,
+    "loss_mask": 0.09982198452266554,
+    "loss_objectness": 0.0003967436127941563,
+    "loss_rpn_box_reg": 0.001256225087108002
+  },
+  {
+    "epoch": 16,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_016.pth",
+    "seconds": 673.83,
+    "loss": 0.14116306710367402,
+    "loss_classifier": 0.015127724216436036,
+    "loss_box_reg": 0.02603081662324257,
+    "loss_mask": 0.09848204721696675,
+    "loss_objectness": 0.0003041453677579871,
+    "loss_rpn_box_reg": 0.0012183332674453595
+  },
+  {
+    "epoch": 17,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_017.pth",
+    "seconds": 343.02,
+    "loss": 0.13859144813070695,
+    "loss_classifier": 0.014934336638543756,
+    "loss_box_reg": 0.024776715403422713,
+    "loss_mask": 0.09737500649876893,
+    "loss_objectness": 0.000325200366192675,
+    "loss_rpn_box_reg": 0.0011801893522889865
+  },
+  {
+    "epoch": 18,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_018.pth",
+    "seconds": 2713.98,
+    "loss": 0.13589194488401216,
+    "loss_classifier": 0.014210903306569283,
+    "loss_box_reg": 0.023919501047348603,
+    "loss_mask": 0.09628890640723209,
+    "loss_objectness": 0.00033174908934279065,
+    "loss_rpn_box_reg": 0.0011408851343530084
+  },
+  {
+    "epoch": 19,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_019.pth",
+    "seconds": 351.32,
+    "loss": 0.1338795995619148,
+    "loss_classifier": 0.01421462363738101,
+    "loss_box_reg": 0.022938107607963807,
+    "loss_mask": 0.09527230881154537,
+    "loss_objectness": 0.00033221102295883043,
+    "loss_rpn_box_reg": 0.001122348659017689
+  },
+  {
+    "epoch": 20,
+    "checkpoint": "runs\\15temple_person_maskrcnn\\maskrcnn_person_epoch_020.pth",
+    "seconds": 584.3,
+    "loss": 0.1315771242417395,
+    "loss_classifier": 0.014032100605157515,
+    "loss_box_reg": 0.022025537896746147,
+    "loss_mask": 0.09415120796610911,
+    "loss_objectness": 0.0002798088876018312,
+    "loss_rpn_box_reg": 0.0010884688353435953
+  }
+]

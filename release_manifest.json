@@ -1,0 +1,35 @@
+{
+  "release": "mural-person-segmentation-open",
+  "version": "1.0.0",
+  "created": "2026-11-01",
+  "models": {
+    "maskrcnn": {
+      "file": "weights/maskrcnn_person_latest.pth",
+      "sha256": "813131d3ea54835e3a13fbe5a7dd9eb457ee54587823057178cf1711d428bef2",
+      "bytes": 178153648
+    },
+    "sam2": {
+      "file": "weights/sam2_mural_best.pt",
+      "sha256": "7309812352317f82507a6b5a13ea1718b0ae8014b03779f419421098054d7f44",
+      "bytes": 323651289
+    }
+  },
+  "test_set": {
+    "images": 138,
+    "annotations": 422
+  },
+  "public_25temple_samples": {
+    "temples": 25,
+    "samples": 25
+  },
+  "publication_policy": "open_by_default_except_confidential_restricted_or_unlicensed_material",
+  "validation": {
+    "release_verifier": "passed",
+    "offline_end_to_end_smoke_test": "passed",
+    "smoke_test_input_images": 1,
+    "smoke_test_output_instances": 9,
+    "git_lfs_files": 140
+  },
+  "files": 210,
+  "bytes_before_manifest": 810573030
+}

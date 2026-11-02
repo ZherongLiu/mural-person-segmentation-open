@@ -1,0 +1,90 @@
+[
+  {
+    "epoch": 1,
+    "train": {
+      "loss": 0.12439101120515819,
+      "bce": 0.019566236639447097,
+      "dice": 0.10376133854578878,
+      "iou_head": 0.005317181552599355,
+      "steps": 1458,
+      "images": 1080,
+      "seconds": 525.76,
+      "prompt_image_counts": {
+        "box": 280,
+        "box_point": 555,
+        "box_point_mask": 245
+      }
+    },
+    "validation": {
+      "images": 120,
+      "seconds": 340.71,
+      "prompt_metrics": {
+        "box": {
+          "instances": 395,
+          "mean_iou": 0.826141221578675,
+          "median_iou": 0.8342408083076059,
+          "iou_at_0_5": 0.9974683544303797,
+          "iou_at_0_75": 0.8860759493670886
+        },
+        "box_point": {
+          "instances": 395,
+          "mean_iou": 0.8237536260703121,
+          "median_iou": 0.8339855132794938,
+          "iou_at_0_5": 1.0,
+          "iou_at_0_75": 0.8759493670886076
+        },
+        "iterative_box_point_mask": {
+          "instances": 395,
+          "mean_iou": 0.8243381510908668,
+          "median_iou": 0.8332316240826093,
+          "iou_at_0_5": 0.9974683544303797,
+          "iou_at_0_75": 0.8759493670886076
+        }
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "train": {
+      "loss": 0.10681130710238046,
+      "bce": 0.016118192546141802,
+      "dice": 0.09017088676615016,
+      "iou_head": 0.002611138487927008,
+      "steps": 1458,
+      "images": 1080,
+      "seconds": 526.39,
+      "prompt_image_counts": {
+        "box": 246,
+        "box_point": 558,
+        "box_point_mask": 276
+      }
+    },
+    "validation": {
+      "images": 120,
+      "seconds": 219.08,
+      "prompt_metrics": {
+        "box": {
+          "instances": 395,
+          "mean_iou": 0.8280786824982083,
+          "median_iou": 0.8356116975255234,
+          "iou_at_0_5": 1.0,
+          "iou_at_0_75": 0.8734177215189873
+        },
+        "box_point": {
+          "instances": 395,
+          "mean_iou": 0.8289504162736047,
+          "median_iou": 0.8361993952786664,
+          "iou_at_0_5": 1.0,
+          "iou_at_0_75": 0.8860759493670886
+        },
+        "iterative_box_point_mask": {
+          "instances": 395,
+          "mean_iou": 0.8241726051196985,
+          "median_iou": 0.8325070821529745,
+          "iou_at_0_5": 0.9974683544303797,
+          "iou_at_0_75": 0.8632911392405064
+        }
+      }
+    }
+  }
+]
